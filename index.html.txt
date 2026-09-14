@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="status">
+
+    <div class="status-info">
+        <p>Lv.5</p>
+        <p>XP 350/500</p>
+    </div>
+
+    <div class="xp-bar">
+        <div class="xp-progress"></div>
+    </div>
+
+</div>
+
+
+<div class="container">
+
+    <h1>Daily Quest</h1>
+    <h2>ToDo</h2>
+
+    <p class="todo">□お皿洗い</p>
+    <p class="todo">□洗濯物</p>
+
+    <div class="add-button">
+        <button>ToDoを追加</button>
+    </div>
+
+</div>
+
+</body>
+</html>
