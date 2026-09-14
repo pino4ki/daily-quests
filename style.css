@@ -1,0 +1,99 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+button {
+    font-size: 30px;
+}
+
+
+/* ToDoカード */
+
+.todo {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px gray;
+    width: 400px;
+    margin: 10px auto;
+}
+
+
+/* ToDo追加ボタン */
+
+.add-button {
+    text-align: right;
+}
+
+
+/* メインコンテンツ */
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+/* ステータス全体 */
+
+.status {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px gray;
+
+    width: fit-content;
+}
+
+
+/* Lv・XP */
+
+.status-info {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* XPバー */
+
+.xp-bar {
+    width: 200px;
+    height: 15px;
+
+    background-color: lightgray;
+
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+
+/* XPが貯まっている部分 */
+
+.xp-progress {
+    width: 70%;
+    height: 100%;
+
+    background-color: lightgreen;
+    border-radius: 10px;
+}
